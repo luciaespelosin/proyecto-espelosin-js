@@ -1,0 +1,504 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MENU */
+
+header{
+    background-color: rgb(31, 31, 31);
+    top: 0;
+    z-index: 0;
+    display: grid;
+}
+
+header .img-center {
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header nav ul li a{
+    color: rgb(143, 27, 27);
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: rgb(102, 20, 20);
+}
+
+/*BODY*/
+
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+/* FOOTER*/
+
+footer{
+    background-color: rgb(31, 31, 31);
+    margin-top: 100px;
+    display: grid;
+    width: auto;
+    height: auto;
+}
+
+footer div{
+    display: flex;
+}
+
+footer div h4{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+footer div h4 a{
+    color: rgb(143, 27, 27);
+    text-decoration: none;
+}
+
+footer div h4 a:hover{
+    color: rgb(102, 20, 20);
+}
+
+/* HOME CSS */
+
+.index .lo-nuevo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    line-height: 35px;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.index .iframe{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.index .iframe .youtube, .spotify{
+    width: 540px;
+    height: 300px;
+    padding: 10px;
+}
+
+
+/* DISCOGRAFIA CSS */
+
+.discografia{
+    display: grid;
+}
+
+.discografia .discografia-text, .albumes, .albumes-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    line-height: 35px;
+    color: whitesmoke;
+}
+
+.discografia .discografia-text{
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.discografia .albumes{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.discografia .albumes-text{
+    padding-top: 13px;
+}
+
+/* albumes spotify discografia */
+
+.discografia .albumesspotify{
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+}
+
+.discografia .albumesspotify .albumspotify{
+    gap: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+}
+
+/* TOUR */
+
+.tour{
+    display: grid;
+}
+
+.tour .gira{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    line-height: 35px;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.tour .table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    color: whitesmoke;
+    border: transparent;
+}
+
+.tour .table .lugares, .fechas{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    color: whitesmoke;
+    border: transparent;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.tour .table .botones{
+    color: black;
+    background: whitesmoke;
+    border: transparent;
+    size: 10px;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.tour .table .botones:hover{
+    background-color: rgb(210, 210, 210);
+}
+
+/* FORMULARIOS CSS*/
+
+.formularios{
+    display: grid;
+    width: 485px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: rgb(39, 39, 39); 
+    padding-left: 30px; 
+}
+
+.contacto-text, .iniciasesion-text, .registrate{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    line-height: 35px;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.conocerte, .perfil{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    line-height: 35px;
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.formularios .form .perfil a{
+    color: rgb(143, 27, 27);
+}
+
+.formularios .form .perfil a:hover{
+    color: rgb(102, 20, 20);
+}
+
+.formularios .form .formulario p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+}
+  
+.formularios .form .formulario p input{
+    background-color: transparent; 
+    width: 410px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-style: none; 
+    margin-top: 10px;  
+    padding: 10px;
+    margin-bottom: 20px; 
+    background-color: #252525;
+}
+
+.formularios .form .formulario p textarea{
+    background-color: #252525; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #252525; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+} 
+
+.formularios .form .formulario p label{
+    display: block; 
+    text-align: center;
+    float: center;  
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formularios .form .formulario .enviar-01{
+    width: 70px;
+    height: 30px;
+    text-decoration: whitesmoke;
+}
+
+.formularios .form .formulario .enviar-01:hover{
+    background-color: rgb(210, 210, 210);
+} 
+  
+span{
+    color: red;
+}
+  
+  
+.formularios .form .formulario .aviso{
+    font-size: 13px;  
+    color: whitesmoke;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* CONTACTO CSS */
+
+.contacto{
+    display: grid
+}
+
+/* REGISTRATE CSS */
+
+.iniciar-sesion{
+    display: grid;
+}
+
+
+/* INICIA SESION CSS */
+
+.iniciar-sesion2{
+    display: grid;
+}
+
+
+
+/* mediaqueries */
+
+/* mobile */
+
+@media screen and (min-width:0px) and (max-width:425px){
+    
+    /* header */ 
+    
+    header nav ul li{
+        padding: 15px;
+    }
+
+    /* footer */
+
+    footer div h4{ 
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* home */
+
+    .index .lo-nuevo{
+        flex-flow: column;
+        font-size: 25px;
+    }
+    
+
+    .index .iframe {
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .index .iframe .youtube, .spotify{
+        width: 295px;
+        height: 205px;
+    }
+
+    /* discrografia */
+
+    .discografia .discografia-text{
+        font-size: 25px;
+    }
+
+    .discografia .albumes{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .discografia .albumesspotify{
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+        
+    }
+    
+    .discografia .albumesspotify .albumspotify{
+        gap: 15px;
+        width: 270px;
+        height: 300px;
+    }
+
+    /* FALTAN LAS MEDIAQUERIES DE TOUR */
+
+    /* formularios */
+
+    
+    .formularios{
+        width: 300px;
+        padding: 20px;
+    }
+
+    .formularios .contacto-text, .iniciasesion-text, .registrate{
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    
+    .formularios .conocerte, .perfil{
+        line-height: 25px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .formularios .form .formulario p input{
+        height: 40px; 
+        width: 275px;
+    }
+
+    .formularios .form .formulario p textarea{
+        width: 275px; 
+        height: 150px; 
+    }
+
+    .contacto .formulario fieldset div .enviar-01{
+        width: 60px;
+        height: 20px;
+    }
+}
+
+
+/* desktop */
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+
+    /* header */
+
+    header nav ul li{
+        font-size: 25px;
+    }
+
+    /* home */
+
+    .index .lo-nuevo{
+        font-size: 35px;
+    }
+
+    /* discrografia */
+
+    
+    .discografia .discografia-text{
+        font-size: 35px;
+    }
+    
+    .discografia .albumes{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    
+    
+    /* albumes spotify discografia */
+    
+    .discografia .albumesspotify{
+        flex-flow: wrap row;
+        justify-content: center;
+    }
+
+    .discografia .albumesspotify .albumspotify{
+        width: 260px;
+        height: 290px;
+    }
+
+    /* FALTAN LAS MEDIAQUERIES DE TOUR */
+
+    /* formularios */
+
+    
+    .formularios{
+        width: 485px; 
+    }
+
+    .formularios .contacto-text, .iniciasesion-text, .registrate{
+        line-height: 35px;
+        padding-bottom: 20px;
+        font-size: 35px;
+    }
+    
+    .formularios .conocerte, .perfil{
+        line-height: 25px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .formularios .form .formulario p input{
+        width: 410px; 
+    }
+
+    .formularios .form .formulario p textarea{
+        width: 410px; 
+        height: 180px; 
+    }
+
+    .contacto .formulario fieldset div .enviar-01{
+        width: 60px;
+        height: 20px;
+    }
+}
